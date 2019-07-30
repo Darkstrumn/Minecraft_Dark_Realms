@@ -1,0 +1,780 @@
+01:47:21 [INFO] Using mbed TLS based native cipher.
+01:47:21 [INFO] Using zlib based native compressor.
+01:47:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+01:47:21 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:47:22 [INFO] Epoll is working, utilising it!
+01:47:22 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:47:22 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:263)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:82)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:264)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:82)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.set(YamlConfig.java:157)
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:273)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:82)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.set(YamlConfig.java:157)
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:278)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:82)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.set(YamlConfig.java:157)
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:286)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:82)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:108)
+	at net.md_5.bungee.conf.YamlConfig.getBoolean(YamlConfig.java:201)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:87)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:108)
+	at net.md_5.bungee.conf.YamlConfig.getInt(YamlConfig.java:189)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:90)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:108)
+	at net.md_5.bungee.conf.YamlConfig.getBoolean(YamlConfig.java:201)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:93)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:22 [WARNING] Could not save config
+java.io.FileNotFoundException: config.yml (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at net.md_5.bungee.conf.YamlConfig.save(YamlConfig.java:176)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:122)
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:108)
+	at net.md_5.bungee.conf.YamlConfig.getBoolean(YamlConfig.java:201)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:94)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:47:23 [SEVERE] Exception in thread "main" 
+01:47:23 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+01:47:23 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+01:47:23 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+01:47:23 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+01:47:23 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+01:47:23 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+01:47:23 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:50:42 [INFO] Using mbed TLS based native cipher.
+01:50:42 [INFO] Using zlib based native compressor.
+01:50:42 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+01:50:42 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:50:42 [INFO] Epoll is working, utilising it!
+01:50:42 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:50:42 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:50:42 [SEVERE] Exception in thread "main" 
+01:50:42 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+01:50:42 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+01:50:42 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+01:50:42 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+01:50:42 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+01:50:42 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+01:50:42 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:56:57 [INFO] Using mbed TLS based native cipher.
+01:56:57 [INFO] Using zlib based native compressor.
+01:56:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+01:56:57 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:56:57 [INFO] Epoll is working, utilising it!
+01:56:57 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:56:57 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:56:57 [SEVERE] Exception in thread "main" 
+01:56:57 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+01:56:57 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+01:56:57 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+01:56:57 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+01:56:57 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+01:56:57 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+01:56:57 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:13:08 [INFO] Using mbed TLS based native cipher.
+02:13:08 [INFO] Using zlib based native compressor.
+02:13:08 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+02:13:08 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:13:08 [INFO] Epoll is working, utilising it!
+02:13:08 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:13:08 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:13:08 [SEVERE] Exception in thread "main" 
+02:13:08 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+02:13:08 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+02:13:08 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+02:13:08 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+02:13:08 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+02:13:08 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+02:13:08 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:18:46 [INFO] Using mbed TLS based native cipher.
+02:18:46 [INFO] Using zlib based native compressor.
+02:18:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+02:18:46 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:18:46 [INFO] Epoll is working, utilising it!
+02:18:47 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:18:47 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:18:47 [SEVERE] Exception in thread "main" 
+02:18:47 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+02:18:47 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+02:18:47 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+02:18:47 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+02:18:47 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+02:18:47 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+02:18:47 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:28:02 [INFO] Using mbed TLS based native cipher.
+02:28:02 [INFO] Using zlib based native compressor.
+02:28:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+02:28:02 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:28:02 [INFO] Epoll is working, utilising it!
+02:28:02 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:28:02 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:28:02 [SEVERE] Exception in thread "main" 
+02:28:02 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+02:28:02 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+02:28:02 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+02:28:02 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+02:28:02 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+02:28:02 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+02:28:02 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+02:29:59 [INFO] Using mbed TLS based native cipher.
+02:29:59 [INFO] Using zlib based native compressor.
+02:29:59 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+02:29:59 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+02:29:59 [INFO] Epoll is working, utilising it!
+02:29:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+02:29:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+02:29:59 [SEVERE] Exception in thread "main" 
+02:29:59 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+02:29:59 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+02:29:59 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+02:29:59 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+02:29:59 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+02:29:59 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+02:29:59 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:09:58 [INFO] Using mbed TLS based native cipher.
+23:09:58 [INFO] Using zlib based native compressor.
+23:09:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:09:59 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:09:59 [INFO] Epoll is working, utilising it!
+23:09:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:09:59 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:09:59 [SEVERE] Exception in thread "main" 
+23:09:59 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:09:59 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:09:59 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:09:59 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:09:59 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:09:59 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:09:59 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:12:13 [INFO] Using mbed TLS based native cipher.
+23:12:13 [INFO] Using zlib based native compressor.
+23:12:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:12:13 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:12:13 [INFO] Epoll is working, utilising it!
+23:12:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:12:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:12:13 [SEVERE] Exception in thread "main" 
+23:12:13 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:12:13 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:12:13 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:12:13 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:12:13 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:12:13 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:12:13 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:16:45 [INFO] Using mbed TLS based native cipher.
+23:16:45 [INFO] Using zlib based native compressor.
+23:16:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:16:45 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:16:45 [INFO] Epoll is working, utilising it!
+23:16:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:16:46 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:16:46 [SEVERE] Exception in thread "main" 
+23:16:46 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:16:46 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:16:46 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:16:46 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:16:46 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:16:46 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:16:46 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:22:08 [INFO] Using mbed TLS based native cipher.
+23:22:08 [INFO] Using zlib based native compressor.
+23:22:08 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:22:08 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:22:08 [INFO] Epoll is working, utilising it!
+23:22:08 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:22:08 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:08 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:08 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:08 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:08 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:08 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:22:09 [SEVERE] Exception in thread "main" 
+23:22:09 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:22:09 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:22:09 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:22:09 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:22:09 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:22:09 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:22:09 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:23:49 [INFO] Using mbed TLS based native cipher.
+23:23:49 [INFO] Using zlib based native compressor.
+23:23:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:23:49 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:23:49 [INFO] Epoll is working, utilising it!
+23:23:49 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:23:49 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:23:49 [SEVERE] Exception in thread "main" 
+23:23:49 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:23:49 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:23:49 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:23:49 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:23:49 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:23:49 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:23:49 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+23:53:15 [INFO] Using mbed TLS based native cipher.
+23:53:15 [INFO] Using zlib based native compressor.
+23:53:15 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+23:53:15 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+23:53:15 [INFO] Epoll is working, utilising it!
+23:53:15 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+23:53:15 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+23:53:15 [SEVERE] Exception in thread "main" 
+23:53:15 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+23:53:15 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+23:53:15 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+23:53:15 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+23:53:15 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+23:53:15 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+23:53:15 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+05:10:33 [INFO] Using mbed TLS based native cipher.
+05:10:33 [INFO] Using zlib based native compressor.
+05:10:33 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+05:10:33 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+05:10:34 [INFO] Epoll is working, utilising it!
+05:10:34 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+05:10:34 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:10:34 [SEVERE] Exception in thread "main" 
+05:10:34 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+05:10:34 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+05:10:34 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+05:10:34 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+05:10:34 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+05:10:34 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+05:10:34 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+05:25:28 [INFO] Using mbed TLS based native cipher.
+05:25:28 [INFO] Using zlib based native compressor.
+05:25:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+05:25:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+05:25:28 [INFO] Epoll is working, utilising it!
+05:25:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+05:25:28 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:25:28 [SEVERE] Exception in thread "main" 
+05:25:28 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+05:25:28 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+05:25:28 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+05:25:28 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+05:25:28 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+05:25:28 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+05:25:28 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+05:29:19 [INFO] Using mbed TLS based native cipher.
+05:29:19 [INFO] Using zlib based native compressor.
+05:29:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+05:29:19 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+05:29:19 [INFO] Epoll is working, utilising it!
+05:29:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+05:29:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:29:19 [SEVERE] Exception in thread "main" 
+05:29:19 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+05:29:19 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+05:29:19 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+05:29:19 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+05:29:19 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+05:29:19 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+05:29:19 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+05:37:28 [INFO] Using mbed TLS based native cipher.
+05:37:28 [INFO] Using zlib based native compressor.
+05:37:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+05:37:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+05:37:28 [INFO] Epoll is working, utilising it!
+05:37:29 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+05:37:29 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+05:37:29 [SEVERE] Exception in thread "main" 
+05:37:29 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+05:37:29 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+05:37:29 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+05:37:29 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+05:37:29 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+05:37:29 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+05:37:29 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+06:11:19 [INFO] Using mbed TLS based native cipher.
+06:11:19 [INFO] Using zlib based native compressor.
+06:11:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+06:11:19 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+06:11:19 [INFO] Epoll is working, utilising it!
+06:11:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+06:11:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:11:19 [SEVERE] Exception in thread "main" 
+06:11:19 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+06:11:19 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+06:11:19 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+06:11:19 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+06:11:19 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+06:11:19 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+06:11:19 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+06:53:07 [INFO] Using mbed TLS based native cipher.
+06:53:07 [INFO] Using zlib based native compressor.
+06:53:07 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+06:53:07 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+06:53:07 [INFO] Epoll is working, utilising it!
+06:53:07 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+06:53:07 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+06:53:07 [SEVERE] Exception in thread "main" 
+06:53:07 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+06:53:07 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+06:53:07 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+06:53:07 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+06:53:07 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+06:53:07 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+06:53:07 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+08:32:20 [INFO] Using mbed TLS based native cipher.
+08:32:20 [INFO] Using zlib based native compressor.
+08:32:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+08:32:20 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+08:32:20 [INFO] Epoll is working, utilising it!
+08:32:21 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+08:32:21 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:32:21 [SEVERE] Exception in thread "main" 
+08:32:21 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+08:32:21 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+08:32:21 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+08:32:21 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+08:32:21 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+08:32:21 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+08:32:21 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+08:56:28 [INFO] Using mbed TLS based native cipher.
+08:56:28 [INFO] Using zlib based native compressor.
+08:56:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+08:56:28 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+08:56:28 [INFO] Epoll is working, utilising it!
+08:56:28 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+08:56:28 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+08:56:28 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+08:56:28 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+08:56:28 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+08:56:28 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+08:56:29 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+08:56:29 [SEVERE] Exception in thread "main" 
+08:56:29 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+08:56:29 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+08:56:29 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+08:56:29 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+08:56:29 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+08:56:29 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+08:56:29 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+09:07:00 [INFO] Using mbed TLS based native cipher.
+09:07:00 [INFO] Using zlib based native compressor.
+09:07:00 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+09:07:00 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:07:01 [INFO] Epoll is working, utilising it!
+09:07:01 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+09:07:01 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:07:01 [SEVERE] Exception in thread "main" 
+09:07:01 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+09:07:01 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+09:07:01 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+09:07:01 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+09:07:01 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+09:07:01 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+09:07:01 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+09:08:32 [INFO] Using mbed TLS based native cipher.
+09:08:32 [INFO] Using zlib based native compressor.
+09:08:32 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+09:08:32 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:08:32 [INFO] Epoll is working, utilising it!
+09:08:32 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+09:08:32 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:08:32 [SEVERE] Exception in thread "main" 
+09:08:32 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+09:08:32 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+09:08:32 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+09:08:32 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+09:08:32 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+09:08:32 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+09:08:32 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+09:19:49 [INFO] Using mbed TLS based native cipher.
+09:19:49 [INFO] Using zlib based native compressor.
+09:19:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+09:19:49 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:19:49 [INFO] Epoll is working, utilising it!
+09:19:50 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+09:19:50 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+09:19:50 [SEVERE] Exception in thread "main" 
+09:19:50 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+09:19:50 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+09:19:50 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+09:19:50 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+09:19:50 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+09:19:50 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+09:19:50 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+19:21:45 [INFO] Using mbed TLS based native cipher.
+19:21:45 [INFO] Using zlib based native compressor.
+19:21:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+19:21:45 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+19:21:45 [INFO] Epoll is working, utilising it!
+19:21:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:21:46 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+19:21:46 [SEVERE] Exception in thread "main" 
+19:21:46 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+19:21:46 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+19:21:46 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+19:21:46 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+19:21:46 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+19:21:46 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+19:21:46 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+01:06:36 [INFO] Using mbed TLS based native cipher.
+01:06:36 [INFO] Using zlib based native compressor.
+01:06:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.14-SNAPSHOT:7669801:1417
+01:06:36 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:06:36 [INFO] Epoll is working, utilising it!
+01:06:36 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:06:36 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [INFO] Loaded plugin cmd_find version git:cmd_find:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [INFO] Loaded plugin cmd_server version git:cmd_server:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [INFO] Loaded plugin cmd_send version git:cmd_send:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [INFO] Loaded plugin cmd_list version git:cmd_list:1.14-SNAPSHOT:7669801:1417 by SpigotMC
+01:06:36 [SEVERE] Exception in thread "main" 
+01:06:36 [SEVERE] java.lang.IllegalArgumentException: Invalid host/address: realm_lobby:25566
+01:06:36 [SEVERE] 	at net.md_5.bungee.Util.getAddr(Util.java:37)
+01:06:36 [SEVERE] 	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:218)
+01:06:36 [SEVERE] 	at net.md_5.bungee.conf.Configuration.load(Configuration.java:100)
+01:06:36 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:266)
+01:06:36 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:62)
+01:06:36 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
