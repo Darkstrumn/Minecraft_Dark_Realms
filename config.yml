@@ -1,0 +1,48 @@
+connection_throttle_limit: 3
+timeout: 30000
+online_mode: true
+player_limit: -1
+network_compression_threshold: 256
+log_commands: false
+listeners:
+- max_players: 1
+  host: 0.0.0.0:25577
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: GLOBAL_PING
+  forced_hosts:
+    pvp.md-5.net: lobby
+  tab_size: 60
+  force_default_server: false
+  motd: '&1HiveNet Dark Realms Server'
+  query_enabled: false
+  query_port: 25577
+  proxy_protocol: false
+  priorities:
+  - lobby
+  - lobby
+connection_throttle: 4000
+groups:
+  Darkstrumn:
+  - admin
+log_pings: true
+ip_forward: true
+prevent_proxy_connections: false
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+stats: 08c0a22f-e3b1-41b3-9b14-59a508b68821
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+servers:
+  lobby:
+    address: realm_ix:25570
+    restricted: false
+    motd: '&1Hive World - Ix-Core'

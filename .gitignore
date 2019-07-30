@@ -1,0 +1,23 @@
+#Init - Sat, Jul 27, 2019 14:03:18
+#-----------------------------------
+**/New folder*
+**/backup*
+**/safe*
+**/project*
+**/journeymap*
+**/libraries*
+**/Ix*
+**/mods/*
+**/plugins/*
+**/Crash*
+**/logs*
+**/serverFiles*
+*minecraft_server*
+*.fifo
+*.forge-installed-*
+*eula.txt
+*Thumbs.db
+*\.bak
+*-\ Copy*
+*\(.*\)\.
+*-\ Shortcut*

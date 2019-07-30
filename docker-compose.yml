@@ -1,0 +1,85 @@
+version: '3.5'
+
+volumes:
+        #  rcon:
+  bungeecord:
+  realm_ix:         
+
+services:
+
+        #  rcon:
+        #    image: itzg/rcon
+        #    ports:
+        #      - "4326:4326"
+        #      - "4327:4327"
+
+        #    volumes:
+        #      - "rcon:/opt/rcon-web-admin/db"
+
+  spigot_db:
+    image: mysql:5.6
+
+    environment:
+      - MYSQL_ROOT_PASSWORD=spigot
+      - MYSQL_DATABASE=spigot
+      - MYSQL_USER=spigot
+      - MYSQL_PASSWORD=spigot
+
+    restart: always
+
+  bungeecord:
+    image: itzg/bungeecord
+    ports:
+      - "0.0.0.0:25577:25577"
+    links:
+      - spigot_db:db
+      - realm_ix:lobby
+
+    volumes:
+      - ./bungeecord:/server
+      - ./bungeecord/plugins:/plugins
+      - ./bungeecord/config:/config
+
+    tty: true
+    stdin_open: true
+    restart: always
+
+#------------------------------------------------------------------
+#-- The Dark Realms:
+#------------------------------------------------------------------
+
+  realm_ix:
+    image: itzg/minecraft-server
+    volumes:
+      - ./realm_ix/:/data
+    ports:
+      - "25570:25570"
+
+    environment:
+      VERSION: "1.12.2"
+      TYPE: "FORGE"
+      FORGEVERSION: "14.23.5.2838"
+      EULA: "TRUE"
+      ONLINE_MODE: "TRUE"
+      CONSOLE: "FALSE"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "testing"
+      RCON_PORT: "28016"
+      ENV_VARIABLE_PREFIX: "CFG_"
+      REPLACE_ENV_VARIABLES: "TRUE"
+      CFG_REALM: "ix"
+      CFG_MOTD: "HiveNet Worlds - Dark Realms: Ix - Forge MC Server"
+      UID: "1004"
+      GID: "1002"
+      
+    healthcheck:
+      test: ["CMD", "mcstatus", "localhost", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  
+    tty: true
+    stdin_open: true
+    restart: always
+  
+  
